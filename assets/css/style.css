@@ -1,0 +1,124 @@
+.clearfix {
+    float: none;
+    clear: both;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+#content {
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ddd;
+}
+
+header {
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+header #logo {
+    width: 100px;
+    display: block;
+    float: left;
+}
+
+header h1 {
+    margin: 0px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+    line-height: 55px;
+
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    float: left;
+
+}
+
+main ,h1{
+    padding: 15px;
+}
+
+main h1 {
+    color: #444;
+}
+
+#restaurante-list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.restaurante-item {
+    list-style: none;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    height: 100px;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: gray;
+}
+
+.restaurante-item .image {
+    height: 105px;
+    width: 105px;
+    overflow: hidden;
+    background: #ccc;
+    float: left;
+}
+
+.restaurante-item .data {
+    float: left;
+    margin-left: 20px;
+}
+
+.restaurante-item h4 {
+    color: #444;
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 5px;
+
+}
+
+.btn {
+    padding: 6px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-color: transparent;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px #ddd;
+    text-decoration: none;
+    color: white;
+}
+
+.ver {
+    background-color: #00b3ee;
+}
+.editar {
+    background-color: #00AA00;
+}
+.eliminar {
+    background-color: red;
+}
+
+.loading {
+    list-style: none;
+    text-decoration: none;
+
+
+}
